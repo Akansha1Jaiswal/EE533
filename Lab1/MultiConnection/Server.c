@@ -35,11 +35,6 @@ void dostuff(int sockfd)
         error("ERROR writing to socket");
 }
 
-/* Prevent zombie processes */
-void sigchld_handler(int signo)
-{
-    while (waitpid(-1, NULL, WNOHANG) > 0);
-}
 
 int main(int argc, char *argv[])
 {
@@ -54,7 +49,7 @@ int main(int argc, char *argv[])
     }
 
     /* Handle terminated child processes */
-    signal(SIGCHLD, sigchld_handler);
+    signal(SIGCHLD, SIG_IGN);
 
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
     if (sockfd < 0)
