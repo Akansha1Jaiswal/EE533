@@ -1,0 +1,23 @@
+.././router_kit/sw/reg_defines.h: * Description: Reference IPv4 router
+.././router_kit/lib/Python/reg_defines_router_kit.py:# Description: Reference IPv4 router
+.././reference_router/include/registers.v://              Reference IPv4 router
+.././reference_router/lib/Python/reg_defines_reference_router.py:# Description: Reference IPv4 router
+.././reference_router/lib/Perl5/reg_defines_reference_router.pm:# Description: Reference IPv4 router
+.././reference_router/lib/C/reg_defines_reference_router.h: * Description: Reference IPv4 router
+.././lab4/reference_router/include/registers.v://              Reference IPv4 router
+.././lab4/reference_router/lib/Python/reg_defines_reference_router.py:# Description: Reference IPv4 router
+.././lab4/reference_router/lib/Perl5/reg_defines_reference_router.pm:# Description: Reference IPv4 router
+.././lab4/reference_router/lib/C/reg_defines_reference_router.h: * Description: Reference IPv4 router
+.././lab4/lib/Python/reg_defines_reference_router.py:# Description: Reference IPv4 router
+.././lab4/lib/Perl5/reg_defines_reference_router.pm:# Description: Reference IPv4 router
+.././lab4/lib/C/reg_defines_reference_router.h: * Description: Reference IPv4 router
+.././lab4_2/src/registers.v://              Reference IPv4 router
+.././lab4_2/lib/Python/reg_defines_reference_router.py:# Description: Reference IPv4 router
+.././lab4_2/lib/Perl5/reg_defines_reference_router.pm:# Description: Reference IPv4 router
+.././lab4_2/lib/C/reg_defines_reference_router.h: * Description: Reference IPv4 router
+.././scone/sw/reg_defines.h: * Description: Reference IPv4 router
+.././scone/lib/Python/reg_defines_scone.py:# Description: Reference IPv4 router
+.././lab4_ids/reference_router/include/registers.v://              Reference IPv4 router
+.././lab4_ids/reference_router/lib/Python/reg_defines_reference_router.py:# Description: Reference IPv4 router
+.././lab4_ids/reference_router/lib/Perl5/reg_defines_reference_router.pm:# Description: Reference IPv4 router
+.././lab4_ids/reference_router/lib/C/reg_defines_reference_router.h: * Description: Reference IPv4 router
