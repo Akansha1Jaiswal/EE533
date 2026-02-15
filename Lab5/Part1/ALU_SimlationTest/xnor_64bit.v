@@ -1,0 +1,21 @@
+`timescale 1ns / 1ps
+
+module XNOR64 (
+    input  [63:0] A,
+    input  [63:0] B,
+    output [63:0] Y
+);
+
+genvar i;
+
+generate
+    for (i = 0; i < 64; i = i + 1) begin : XNOR_BLOCK
+        XNOR1 u_xnor (
+            .A(A[i]),
+            .B(B[i]),
+            .Y(Y[i])
+        );
+    end
+endgenerate
+
+endmodule
