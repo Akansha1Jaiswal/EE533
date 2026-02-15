@@ -1,0 +1,4 @@
+verilog work "reg64_2.v"
+verilog work "mux4to1_64.v"
+verilog work "decoder2to4.v"
+verilog work "regfile.v"
