@@ -1,0 +1,17 @@
+// Verilog instantiation template created from schematic C:\Xilinx\10.1\ISE\Lab_YLR\lab5_2\alu64_syn.sch - Wed Feb 11 23:40:24 2026
+//
+// Notes: 
+// To use this template to instantiate this component,cut-and-paste and then edit
+//
+// Instantiate the UUT
+   alu64_syn UUT (
+		.clk(    ), 
+		.A(    ), 
+		.B(    ), 
+		.opcode(    ), 
+		.Result(    ), 
+		.SLT(    ), 
+		.Overflow_flag(    ), 
+		.Cout(    ), 
+		.Zero_flag(    )
+   );

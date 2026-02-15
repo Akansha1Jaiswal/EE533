@@ -1,0 +1,4 @@
+MO regfile NULL regfile.v vlg72/regfile.bin 1770964468
+MO decoder2to4 NULL decoder2to4.v vlg7F/decoder2to4.bin 1770964468
+MO mux4to1_64 NULL mux4to1_64.v vlg3B/mux4to1__64.bin 1770964468
+MO reg64_2 NULL reg64_2.v vlg61/reg64__2.bin 1770964468

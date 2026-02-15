@@ -1,0 +1,99 @@
+Determining compilation order of HDL files
+Analyzing Verilog file dff_reset.v
+Analyzing Verilog file stage_register_n.v
+Analyzing Verilog file reg64_2.v
+Analyzing Verilog file mux4to1_64.v
+Analyzing Verilog file decoder2to4.v
+Analyzing Verilog file regfile.v
+Analyzing Verilog file PC.v
+Analyzing Verilog file MEM_WB.v
+Analyzing Verilog file instruction_decoder.v
+Analyzing Verilog file IMem.v
+Analyzing Verilog file IF_ID.v
+Analyzing Verilog file ID_EX.v
+Analyzing Verilog file EX_MEM.v
+Analyzing Verilog file DMem.v
+Analyzing Verilog file pipeline_top.v
+Analyzing Verilog file pipeline_tb.v
+Analyzing Verilog file C:/Xilinx/10.1/ISE/verilog/src/glbl.v
+Saving Verilog parse-tree work.dff_reset into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/dff_reset.sdb
+Saving Verilog parse-tree work.stage_register_n into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/stage_register_n.sdb
+Saving Verilog parse-tree work.reg64_2 into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/reg64_2.sdb
+Saving Verilog parse-tree work.mux4to1_64 into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/mux4to1_64.sdb
+Saving Verilog parse-tree work.decoder2to4 into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/decoder2to4.sdb
+Saving Verilog parse-tree work.regfile into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/regfile.sdb
+Saving Verilog parse-tree work.PC into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/@p@c.sdb
+Saving Verilog parse-tree work.MEM_WB into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/@m@e@m_@w@b.sdb
+Saving Verilog parse-tree work.instruction_decoder into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/instruction_decoder.sdb
+Saving Verilog parse-tree work.IMem into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/@i@mem.sdb
+Saving Verilog parse-tree work.IF_ID into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/@i@f_@i@d.sdb
+Saving Verilog parse-tree work.ID_EX into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/@i@d_@e@x.sdb
+Saving Verilog parse-tree work.EX_MEM into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/@e@x_@m@e@m.sdb
+Saving Verilog parse-tree work.DMem into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/@d@mem.sdb
+Saving Verilog parse-tree work.pipeline_top into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/pipeline_top.sdb
+Saving Verilog parse-tree work.pipeline_tb into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/pipeline_tb.sdb
+Saving Verilog parse-tree work.glbl into
+c:/xilinx/10.1/ise/lab_ylr/lab5_2/isim/work/glbl.sdb
+Starting static elaboration
+Restoring Verilog parse-tree xilinxcorelib_ver.BLKMEMSP_V6_2 from
+c:/xilinx/10.1/ise/verilog/hdp/nt/xilinxcorelib_ver/xilinxcorelib_ver.sdbl
+Restoring Verilog parse-tree xilinxcorelib_ver.BLKMEMDP_V6_3 from
+c:/xilinx/10.1/ise/verilog/hdp/nt/xilinxcorelib_ver/xilinxcorelib_ver.sdbl
+WARNING:HDLCompiler:1016 - "pipeline_top.v" Line 125. Port ALUOp_in is not
+   connected to this instance
+WARNING:HDLCompiler:1016 - "regfile.v" Line 47. Port reset is not connected to
+   this instance
+WARNING:HDLCompiler:1016 - "regfile.v" Line 54. Port reset is not connected to
+   this instance
+WARNING:HDLCompiler:1016 - "regfile.v" Line 61. Port reset is not connected to
+   this instance
+WARNING:HDLCompiler:1016 - "regfile.v" Line 68. Port reset is not connected to
+   this instance
+Completed static elaboration
+Fuse Memory Usage: 55176 Kb
+Fuse CPU Usage: 749 ms
+Compiling module glbl
+Compiling module dff_reset
+Compiling module stage_register_n(WIDTH=9)
+Compiling module PC
+Compiling module BLKMEMSP_V6_2(c_addr_width=9,c_d...
+Compiling module IMem
+Compiling module stage_register_n(WIDTH=32)
+Compiling module IF_ID
+Compiling module instruction_decoder
+Compiling module decoder2to4
+Compiling module reg64_2
+Compiling module mux4to1_64
+Compiling module regfile
+Compiling module stage_register_n(WIDTH=64)
+Compiling module stage_register_n(WIDTH=2)
+Compiling module stage_register_n(WIDTH=8)
+Compiling module stage_register_n(WIDTH=1)
+Compiling module stage_register_n(WIDTH=4)
+Compiling module ID_EX
+Compiling module EX_MEM
+Compiling module BLKMEMDP_V6_3(c_addra_width=8,c_...
+Compiling module DMem
+Compiling module MEM_WB
+Compiling module pipeline_top
+Compiling module pipeline_tb
+Compiled 25 Verilog Units
+Built simulation executable pipeline_tb_isim_beh.exe
+Fuse Memory Usage: 58764 Kb
+Fuse CPU Usage: 890 ms

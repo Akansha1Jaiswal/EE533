@@ -1,0 +1,14 @@
+[Inputs]
+=A[63:0]=
+=B[63:0]=
+=opcode[3:0]=
+[Outputs]
+zero_flag
+Cout
+overflow_flag
+SLT
+=result[63:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel alu64
+

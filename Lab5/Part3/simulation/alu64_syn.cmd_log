@@ -1,0 +1,2 @@
+sch2verilog -intstyle ise -family virtex2p -tionly   -tiext tfi -w "C:/Xilinx/10.1/ISE/Lab_YLR/lab5_2/alu64_syn.sch" alu64_syn.tfi
+sch2verilog -intstyle ise -family virtex2p   -w "C:/Xilinx/10.1/ISE/Lab_YLR/lab5_2/alu64_syn.sch" alu64_syn.vf

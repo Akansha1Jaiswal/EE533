@@ -1,0 +1,17 @@
+    ____  ____
+   /   /\/   /
+  /___/  \  /    VENDOR      : Xilinx Inc.
+  \   \   \/     VERSION     : 10.1 (K.31)
+   \   \         APPLICATION : compxlib
+   /   /         CONTENTS    : Compilation Log
+  /___/   /\     FILENAME    : compxlib.log
+  \   \  /  \    CREATED ON  : Thu Feb 12 21:38:50 2026
+   \___\/\___\
+
+Release 10.1 - COMPXLIB K.31
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+
+ERROR:CAEInterfaces:380 - COMPXLIB[cmd]: invalid simulator specified: isim
+
+<ToolTip>: run 'compxlib -help sim' to list the names of valid simulators

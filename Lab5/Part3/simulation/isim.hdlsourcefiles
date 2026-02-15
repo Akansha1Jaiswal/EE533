@@ -1,0 +1,11 @@
+C:/Xilinx/10.1/ISE/verilog/src/glbl.v
+K:/IP0_K.14/env/Databases/ip/export/rtf/verilog/src/XilinxCoreLib/BLKMEMDP_V6_3.v
+C:/Xilinx/10.1/ISE/Lab_YLR/lab5_2/mux4to1_64.v
+C:/Xilinx/10.1/ISE/Lab_YLR/lab5_2/reg64_2.v
+C:/Xilinx/10.1/ISE/Lab_YLR/lab5_2/decoder2to4.v
+C:/Xilinx/10.1/ISE/Lab_YLR/lab5_2/instruction_decoder.v
+K:/IP0_K.14/env/Databases/ip/export/rtf/verilog/src/XilinxCoreLib/BLKMEMSP_V6_2.v
+C:/Xilinx/10.1/ISE/Lab_YLR/lab5_2/dff_reset.v
+C:/Xilinx/10.1/ISE/Lab_YLR/lab5_2/PC.v
+C:/Xilinx/10.1/ISE/Lab_YLR/lab5_2/pipeline_top.v
+C:/Xilinx/10.1/ISE/Lab_YLR/lab5_2/pipeline_tb.v

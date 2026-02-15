@@ -1,0 +1,12 @@
+# Output products list for <DMem>
+DMem.asy
+DMem.mif
+DMem.ngc
+DMem.sym
+DMem.v
+DMem.veo
+DMem.vhd
+DMem.vho
+DMem.xco
+DMem_flist.txt
+DMem_xmdf.tcl
