@@ -1,0 +1,12 @@
+C:/Xilinx/10.1/ISE/verilog/src/glbl.v
+K:/IP0_K.14/env/Databases/ip/export/rtf/verilog/src/XilinxCoreLib/BLKMEMDP_V6_3.v
+C:/Documents and Settings/student/My Documents/Lab/MT_pipe/cond_eval.v
+C:/Documents and Settings/student/My Documents/Lab/MT_pipe/barrel_left_64.v
+C:/Documents and Settings/student/My Documents/Lab/MT_pipe/ripple_adder64.v
+C:/Documents and Settings/student/My Documents/Lab/MT_pipe/alu32.v
+C:/Documents and Settings/student/My Documents/Lab/MT_pipe/ex_stage.v
+C:/Documents and Settings/student/My Documents/Lab/MT_pipe/control_unit.v
+C:/Documents and Settings/student/My Documents/Lab/MT_pipe/instruction_decoder.v
+K:/IP0_K.14/env/Databases/ip/export/rtf/verilog/src/XilinxCoreLib/BLKMEMSP_V6_2.v
+C:/Documents and Settings/student/My Documents/Lab/MT_pipe/pipeline_MT.v
+C:/Documents and Settings/student/My Documents/Lab/MT_pipe/pipeineMT_tb.v

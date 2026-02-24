@@ -1,0 +1,149 @@
+Determining compilation order of HDL files
+Analyzing Verilog file full_adder.v
+Analyzing Verilog file zero_flag64.v
+Analyzing Verilog file ripple_adder64.v
+Analyzing Verilog file result_muc32.v
+Analyzing Verilog file overflow_flag64.v
+Analyzing Verilog file opcode_decoder.v
+Analyzing Verilog file dff_reset.v
+Analyzing Verilog file bitwise_and64.v
+Analyzing Verilog file barrel_left_64.v
+Analyzing Verilog file stage_register_we.v
+Analyzing Verilog file stage_register_n.v
+Analyzing Verilog file cond_eval.v
+Analyzing Verilog file alu32.v
+Analyzing Verilog file regfile16_32bit.v
+Analyzing Verilog file MEM_WB.v
+Analyzing Verilog file instruction_decoder.v
+Analyzing Verilog file IMem.v
+Analyzing Verilog file IF_ID.v
+Analyzing Verilog file ID_EX.v
+Analyzing Verilog file hdu.v
+Analyzing Verilog file forwarding_unit.v
+Analyzing Verilog file ex_stage.v
+Analyzing Verilog file DMem.v
+Analyzing Verilog file control_unit.v
+Analyzing Verilog file pipeline_MT.v
+WARNING:HDLCompiler:687 - "pipeline_MT.v" Line 545. Overwriting previous
+   definition of module regfile_bram_mt
+WARNING:HDLCompiler:687 - "pipeline_MT.v" Line 583. Overwriting previous
+   definition of module IF_ID_mt
+WARNING:HDLCompiler:687 - "pipeline_MT.v" Line 612. Overwriting previous
+   definition of module ID_EX_mt
+WARNING:HDLCompiler:687 - "pipeline_MT.v" Line 719. Overwriting previous
+   definition of module MEM_WB_mt
+WARNING:HDLCompiler:687 - "pipeline_MT.v" Line 760. Overwriting previous
+   definition of module hdu_mt
+WARNING:HDLCompiler:687 - "pipeline_MT.v" Line 786. Overwriting previous
+   definition of module forwarding_unit_mt
+Analyzing Verilog file pipeineMT_tb.v
+Analyzing Verilog file C:/Xilinx/10.1/ISE/verilog/src/glbl.v
+Saving Verilog parse-tree work.full_adder into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/full_adder.sdb
+Saving Verilog parse-tree work.zero_flag32 into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/zero_flag32.sdb
+Saving Verilog parse-tree work.ripple_adder32 into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/ripple_adder32.sdb
+Saving Verilog parse-tree work.result_mux32 into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/result_mux32.sdb
+Saving Verilog parse-tree work.overflow_flag32 into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/overflow_flag32.sdb
+Saving Verilog parse-tree work.opcode_decoder into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/opcode_decoder.sdb
+Saving Verilog parse-tree work.dff_reset into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/dff_reset.sdb
+Saving Verilog parse-tree work.bitwise_and32 into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/bitwise_and32.sdb
+Saving Verilog parse-tree work.barrel_left_32 into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/barrel_left_32.sdb
+Saving Verilog parse-tree work.stage_register_we into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/stage_register_we.sdb
+Saving Verilog parse-tree work.stage_register_n into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/stage_register_n.sdb
+Saving Verilog parse-tree work.cond_eval into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/cond_eval.sdb
+Saving Verilog parse-tree work.alu32 into c:/documents and settings/student/my
+documents/lab/mt_pipe/isim/work/alu32.sdb
+Saving Verilog parse-tree work.regfile_bram_mt into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/regfile_bram_mt.sdb
+Saving Verilog parse-tree work.MEM_WB_mt into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/@m@e@m_@w@b_mt.sdb
+Saving Verilog parse-tree work.instruction_decoder into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/instruction_decoder.sdb
+Saving Verilog parse-tree work.imem into c:/documents and settings/student/my
+documents/lab/mt_pipe/isim/work/imem.sdb
+Saving Verilog parse-tree work.IF_ID_mt into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/@i@f_@i@d_mt.sdb
+Saving Verilog parse-tree work.ID_EX_mt into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/@i@d_@e@x_mt.sdb
+Saving Verilog parse-tree work.hdu_mt into c:/documents and settings/student/my
+documents/lab/mt_pipe/isim/work/hdu_mt.sdb
+Saving Verilog parse-tree work.forwarding_unit_mt into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/forwarding_unit_mt.sdb
+Saving Verilog parse-tree work.ex_stage into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/ex_stage.sdb
+Saving Verilog parse-tree work.DMem into c:/documents and settings/student/my
+documents/lab/mt_pipe/isim/work/@d@mem.sdb
+Saving Verilog parse-tree work.control_unit into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/control_unit.sdb
+Saving Verilog parse-tree work.pipeline_top_4thread into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/pipeline_top_4thread.sdb
+Saving Verilog parse-tree work.EX_MEM_mt into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/@e@x_@m@e@m_mt.sdb
+Saving Verilog parse-tree work.tb_simple_4thread into c:/documents and
+settings/student/my documents/lab/mt_pipe/isim/work/tb_simple_4thread.sdb
+Saving Verilog parse-tree work.glbl into c:/documents and settings/student/my
+documents/lab/mt_pipe/isim/work/glbl.sdb
+Starting static elaboration
+Restoring Verilog parse-tree xilinxcorelib_ver.BLKMEMSP_V6_2 from
+c:/xilinx/10.1/ise/verilog/hdp/nt/xilinxcorelib_ver/xilinxcorelib_ver.sdbl
+Restoring Verilog parse-tree xilinxcorelib_ver.BLKMEMDP_V6_3 from
+c:/xilinx/10.1/ise/verilog/hdp/nt/xilinxcorelib_ver/xilinxcorelib_ver.sdbl
+WARNING:HDLCompiler:1016 - "pipeline_MT.v" Line 139. Port P is not connected to
+   this instance
+WARNING:HDLCompiler:1016 - "pipeline_MT.v" Line 388. Port U is not connected to
+   this instance
+Completed static elaboration
+Fuse Memory Usage: 55176 Kb
+Fuse CPU Usage: 1358 ms
+Compiling module glbl
+Compiling module BLKMEMSP_V6_2(c_addr_width=9,c_d...
+Compiling module imem
+Compiling module IF_ID_mt
+Compiling module instruction_decoder
+Compiling module control_unit
+Compiling module regfile_bram_mt
+Compiling module hdu_mt
+Compiling module ID_EX_mt
+Compiling module forwarding_unit_mt
+Compiling module opcode_decoder
+Compiling module full_adder
+Compiling module ripple_adder32
+Compiling module bitwise_and32
+WARNING:HDLCompiler:1007 - "barrel_left_64.v" Line 35. Element index -1 into in
+   is out of bounds
+WARNING:HDLCompiler:1007 - "barrel_left_64.v" Line 42. Element index -2 into s1
+   is out of bounds
+WARNING:HDLCompiler:1007 - "barrel_left_64.v" Line 49. Element index -4 into s2
+   is out of bounds
+WARNING:HDLCompiler:1007 - "barrel_left_64.v" Line 56. Element index -8 into s4
+   is out of bounds
+WARNING:HDLCompiler:1007 - "barrel_left_64.v" Line 63. Element index -16 into s8
+   is out of bounds
+Compiling module barrel_left_32
+Compiling module result_mux32
+Compiling module zero_flag32
+Compiling module overflow_flag32
+Compiling module alu32
+Compiling module cond_eval
+Compiling module ex_stage
+Compiling module EX_MEM_mt
+Compiling module BLKMEMDP_V6_3(c_addra_width=8,c_...
+Compiling module DMem
+Compiling module MEM_WB_mt
+Compiling module pipeline_top_4thread
+Compiling module tb_simple_4thread
+Compiled 27 Verilog Units
+Built simulation executable tb_simple_4thread_isim_beh.exe
+Fuse Memory Usage: 60876 Kb
+Fuse CPU Usage: 3468 ms

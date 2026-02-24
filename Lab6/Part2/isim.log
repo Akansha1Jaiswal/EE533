@@ -1,0 +1,51 @@
+Command line:
+   ./tb_simple_4thread_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1102
+
+Mon Feb 23 23:21:38 2026
+
+Total Line Count : 1071
+
+ Elaboration Time: 0.40625 sec
+
+ Current Memory Usage: 143.872 Meg
+
+ Total Signals          : 954
+ Total Nets             : 2715
+ Total Signal Drivers   : 788
+ Total Blocks           : 71
+ Total Primitive Blocks : 53
+ Total Processes        : 878
+ Total Traceable Variables  : 375
+ Total Scalar Nets and Variables : 81567
+ntrace select -o on -n /tb_simple_4thread/clk 
+ntrace select -o on -n /tb_simple_4thread/reset 
+ntrace select -o on -n /tb_simple_4thread/cycle 
+ntrace select -o on -n /tb_simple_4thread/shadow_rf 
+ntrace select -o on -n /tb_simple_4thread/shadow_written 
+ntrace select -o on -n /tb_simple_4thread/t 
+ntrace select -o on -n /tb_simple_4thread/r 
+ntrace select -o on -n /tb_simple_4thread/pass_count 
+ntrace select -o on -n /tb_simple_4thread/fail_count 
+ntrace select -o on -n /tb_simple_4thread/dut/instruction_IF 
+ntrace select -o on -n /tb_simple_4thread/dut/current_thread 
+ntrace select -o on -n /tb_simple_4thread/dut/fetch_thread_reg 
+ntrace select -o on -n /tb_simple_4thread/dut/thread_id_ID 
+ntrace select -o on -n /tb_simple_4thread/dut/thread_id_EX 
+ntrace select -o on -n /tb_simple_4thread/dut/thread_id_WB 
+ntrace select -o on -n /tb_simple_4thread/dut/exmem_thread 
+ntrace select -o on -n /tb_simple_4thread/dut/pc 
+ntrace select -o on -n /tb_simple_4thread/dut/rf_wr_addr 
+ntrace select -o on -n /tb_simple_4thread/dut/alu_result_EX 
+ntrace select -o on -n /tb_simple_4thread/dut/rs_data_EX 
+ntrace select -o on -n /tb_simple_4thread/dut/pc_out 
+ntrace select -o on -n /tb_simple_4thread/dut/rf_rd_addr1 
+ntrace select -o on -n /tb_simple_4thread/dut/rf_rd_addr2 
+ntrace select -o on -n /tb_simple_4thread/dut/rs_data_ID 
+ntrace select -o on -n /tb_simple_4thread/dut/rt_data_ID 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

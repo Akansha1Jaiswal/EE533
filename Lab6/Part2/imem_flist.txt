@@ -1,0 +1,12 @@
+# Output products list for <imem>
+imem.asy
+imem.mif
+imem.ngc
+imem.sym
+imem.v
+imem.veo
+imem.vhd
+imem.vho
+imem.xco
+imem_flist.txt
+imem_xmdf.tcl
