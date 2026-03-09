@@ -1,0 +1,54 @@
+Release 10.1.03 Physical Synthesis Report K.39 (lin64)
+Copyright (c) 1995-2007 Xilinx, Inc. All rights reserved.
+
+TABLE OF CONTENTS
+  1) Physical Synthesis Options Summary
+  2) Optimizations statistics and details
+
+
+=========================================================================
+*                 Physical Synthesis Options Summary                    *
+=========================================================================
+---- Options
+Global Optimization                 : OFF
+    Retiming                        : OFF
+    Equivalent Register Removal     : OFF
+Timing-Driven Packing and Placement : ON
+    Logic Optimization              : OFF
+    Register Duplication            : ON
+
+---- Target Parameters
+Target Device                       : 2vp50ff1152-7
+
+=========================================================================
+
+
+=========================================================================
+*                        Optimizations                                  *
+=========================================================================
+---- Statistics
+   Number of registers added by Replication                  | 13              
+
+   Overall change in number of registers                     | +13              
+
+
+---- Details
+
+New or modified components                             | Optimization             | Objective           
+-------------------------------------------------------|--------------------------|----------------------
+nf2_core/user_data_path/ylr_risc_cpu_inst/my_cpu/MEM_WB_MemToReg_REPLICA_69| Replication              | Fanout Optimization
+nf2_core/user_data_path/ylr_risc_cpu_inst/my_cpu/MEM_WB_MemToReg_REPLICA_70| Replication              | Fanout Optimization
+nf2_core/user_data_path/ylr_risc_cpu_inst/my_cpu/MEM_WB_MemToReg_REPLICA_71| Replication              | Fanout Optimization
+nf2_core/user_data_path/ylr_risc_cpu_inst/my_cpu/MEM_WB_MemToReg_REPLICA_72| Replication              | Fanout Optimization
+nf2_core/user_data_path/ylr_risc_cpu_inst/my_cpu/MEM_WB_MemToReg_REPLICA_73| Replication              | Fanout Optimization
+nf2_core/user_data_path/ylr_risc_cpu_inst/my_cpu/MEM_WB_MemToReg_REPLICA_74| Replication              | Fanout Optimization
+nf2_core/user_data_path/ylr_risc_cpu_inst/my_cpu/MEM_WB_MemToReg_REPLICA_75| Replication              | Fanout Optimization
+nf2_core/user_data_path/ylr_risc_cpu_inst/my_cpu/MEM_WB_MemToReg_REPLICA_76| Replication              | Fanout Optimization
+nf2_core/user_data_path/ylr_risc_cpu_inst/my_cpu/MEM_WB_MemToReg_REPLICA_77| Replication              | Fanout Optimization
+nf2_core/user_data_path/ylr_risc_cpu_inst/my_cpu/MEM_WB_MemToReg_REPLICA_78| Replication              | Fanout Optimization
+nf2_core/user_data_path/ylr_risc_cpu_inst/my_cpu/MEM_WB_MemToReg_REPLICA_79| Replication              | Fanout Optimization
+nf2_core/user_data_path/ylr_risc_cpu_inst/my_cpu/MEM_WB_MemToReg_REPLICA_80| Replication              | Fanout Optimization
+nf2_core/user_data_path/ylr_risc_cpu_inst/my_cpu/MEM_WB_MemToReg_REPLICA_81| Replication              | Fanout Optimization
+
+
+
