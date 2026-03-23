@@ -1,0 +1,11 @@
+# Output products list for <data_Rmemory>
+data_Rmemory.asy
+data_Rmemory.ngc
+data_Rmemory.sym
+data_Rmemory.v
+data_Rmemory.veo
+data_Rmemory.vhd
+data_Rmemory.vho
+data_Rmemory.xco
+data_Rmemory_flist.txt
+data_Rmemory_xmdf.tcl

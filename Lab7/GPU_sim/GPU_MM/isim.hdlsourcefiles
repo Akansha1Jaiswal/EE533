@@ -1,0 +1,12 @@
+C:/Xilinx/10.1/ISE/verilog/src/glbl.v
+K:/IP0_K.14/env/Databases/ip/export/rtf/verilog/src/XilinxCoreLib/BLKMEMDP_V6_3.v
+C:/Documents and Settings/student/My Documents/GPU_MM/simd_alu2.v
+C:/Documents and Settings/student/My Documents/GPU_MM/tensor_core.v
+C:/Documents and Settings/student/My Documents/GPU_MM/simd_alu1.v
+C:/Documents and Settings/student/My Documents/GPU_MM/register_file.v
+C:/Documents and Settings/student/My Documents/GPU_MM/gpu_control_unit.v
+C:/Documents and Settings/student/My Documents/GPU_MM/isa_decoder.v
+K:/IP0_K.14/env/Databases/ip/export/rtf/verilog/src/XilinxCoreLib/BLKMEMSP_V6_2.v
+C:/Documents and Settings/student/My Documents/GPU_MM/pc.v
+C:/Documents and Settings/student/My Documents/GPU_MM/gpu_top.v
+C:/Documents and Settings/student/My Documents/GPU_MM/gpu_tb.v

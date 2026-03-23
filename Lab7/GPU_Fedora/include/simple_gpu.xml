@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nf:module xmlns:nf="http://www.NetFPGA.org/NF2_register_system" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.NetFPGA.org/NF2_register_system NF2_register_system.xsd ">
+	<nf:name>simple_gpu</nf:name>
+	<nf:prefix>simple_gpu</nf:prefix>
+	<nf:location>udp</nf:location>
+	<nf:description>Registers for SIMD GPU</nf:description>
+	<nf:blocksize>64</nf:blocksize>
+	<nf:registers>
+		<nf:register>
+		  <nf:name>command_gpu</nf:name>
+			<nf:description>Commands for write, read, start and stop</nf:description>
+			<nf:type>generic_software32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>address_gpu</nf:name>
+			<nf:description>Address to write into IMem/DMem or read from DMem/IMem/RegFile</nf:description>
+			<nf:type>generic_software32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>imem</nf:name>
+			<nf:description>Instruction to be stored in IMem BRAM</nf:description>
+			<nf:type>generic_software32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>dmem_write_lower32</nf:name>
+			<nf:description>Data to be stored in lower 32 bits of DMem</nf:description>
+			<nf:type>generic_software32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>dmem_write_upper32</nf:name>
+			<nf:description>Data to be stored in upper 32 bits of DMem</nf:description>
+			<nf:type>generic_software32</nf:type>
+		</nf:register>
+        <nf:register>
+		  <nf:name>dmem_read_lower32</nf:name>
+			<nf:description>Reads lower 32 bits of DMem</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+        <nf:register>
+		  <nf:name>dmem_read_upper32</nf:name>
+			<nf:description>Reads upper 32 bits of DMem</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>regfile_read_lower32</nf:name>
+			<nf:description>Reads lower 32 bits of RegFile (SIMD lanes 1 and 0)</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+		<nf:register>
+		  <nf:name>regfile_read_upper32</nf:name>
+			<nf:description>Reads upper 32 bits of RegFile (SIMD lanes 3 and 2)</nf:description>
+			<nf:type>generic_hardware32</nf:type>
+		</nf:register>
+	</nf:registers>
+</nf:module>

@@ -1,0 +1,63 @@
+Determining compilation order of HDL files
+Analyzing Verilog file ../tensor_core.v
+Analyzing Verilog file ../simd_alu2.v
+Analyzing Verilog file ../simd_alu1.v
+Analyzing Verilog file ../register_file.v
+Analyzing Verilog file ../pc.v
+Analyzing Verilog file ../isa_decoder.v
+Analyzing Verilog file ../instruction_memory.v
+Analyzing Verilog file ../gpu_control_unit.v
+Analyzing Verilog file ../data_Rmemory.v
+Analyzing Verilog file ../gpu_top.v
+Analyzing Verilog file ../gpu_tb.v
+Analyzing Verilog file C:/Xilinx/10.1/ISE/verilog/src/glbl.v
+Saving Verilog parse-tree work.tensor_core into c:/documents and
+settings/student/my documents/gpu_mm/gpu_mm/isim/work/tensor_core.sdb
+Saving Verilog parse-tree work.simd_alu2 into c:/documents and
+settings/student/my documents/gpu_mm/gpu_mm/isim/work/simd_alu2.sdb
+Saving Verilog parse-tree work.simd_alu1 into c:/documents and
+settings/student/my documents/gpu_mm/gpu_mm/isim/work/simd_alu1.sdb
+Saving Verilog parse-tree work.register_file into c:/documents and
+settings/student/my documents/gpu_mm/gpu_mm/isim/work/register_file.sdb
+Saving Verilog parse-tree work.gpu_pc into c:/documents and settings/student/my
+documents/gpu_mm/gpu_mm/isim/work/gpu_pc.sdb
+Saving Verilog parse-tree work.isa_decoder into c:/documents and
+settings/student/my documents/gpu_mm/gpu_mm/isim/work/isa_decoder.sdb
+Saving Verilog parse-tree work.instruction_memory into c:/documents and
+settings/student/my documents/gpu_mm/gpu_mm/isim/work/instruction_memory.sdb
+Saving Verilog parse-tree work.gpu_control_unit into c:/documents and
+settings/student/my documents/gpu_mm/gpu_mm/isim/work/gpu_control_unit.sdb
+Saving Verilog parse-tree work.data_Rmemory into c:/documents and
+settings/student/my documents/gpu_mm/gpu_mm/isim/work/data_@rmemory.sdb
+Saving Verilog parse-tree work.gpu into c:/documents and settings/student/my
+documents/gpu_mm/gpu_mm/isim/work/gpu.sdb
+Saving Verilog parse-tree work.tb_gpu into c:/documents and settings/student/my
+documents/gpu_mm/gpu_mm/isim/work/tb_gpu.sdb
+Saving Verilog parse-tree work.glbl into c:/documents and settings/student/my
+documents/gpu_mm/gpu_mm/isim/work/glbl.sdb
+Starting static elaboration
+Restoring Verilog parse-tree xilinxcorelib_ver.BLKMEMSP_V6_2 from
+c:/xilinx/10.1/ise/verilog/hdp/nt/xilinxcorelib_ver/xilinxcorelib_ver.sdbl
+Restoring Verilog parse-tree xilinxcorelib_ver.BLKMEMDP_V6_3 from
+c:/xilinx/10.1/ise/verilog/hdp/nt/xilinxcorelib_ver/xilinxcorelib_ver.sdbl
+Completed static elaboration
+Fuse Memory Usage: 55176 Kb
+Fuse CPU Usage: 124 ms
+Compiling module glbl
+Compiling module gpu_pc
+Compiling module BLKMEMSP_V6_2(c_addr_width=6,c_d...
+Compiling module instruction_memory
+Compiling module isa_decoder
+Compiling module gpu_control_unit
+Compiling module register_file
+Compiling module simd_alu1
+Compiling module tensor_core
+Compiling module simd_alu2
+Compiling module BLKMEMDP_V6_3(c_addra_width=8,c_...
+Compiling module data_Rmemory
+Compiling module gpu_0
+Compiling module tb_gpu
+Compiled 14 Verilog Units
+Built simulation executable tb_gpu_isim_beh.exe
+Fuse Memory Usage: 58764 Kb
+Fuse CPU Usage: 265 ms

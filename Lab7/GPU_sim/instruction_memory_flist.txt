@@ -1,0 +1,12 @@
+# Output products list for <instruction_memory>
+instruction_memory.asy
+instruction_memory.mif
+instruction_memory.ngc
+instruction_memory.sym
+instruction_memory.v
+instruction_memory.veo
+instruction_memory.vhd
+instruction_memory.vho
+instruction_memory.xco
+instruction_memory_flist.txt
+instruction_memory_xmdf.tcl
